@@ -1,6 +1,6 @@
 {
   "name": "@vjnvisakh/csv2db",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "To convert a csv file to sql insert statements",
   "main": "index.js",
   "type": "module",
@@ -10,6 +10,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
