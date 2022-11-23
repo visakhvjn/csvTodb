@@ -1,7 +1,7 @@
 {
-  "name": "csv-2-db",
+  "name": "@vjnvisakh/csv2db",
   "version": "1.0.0",
-  "description": "To convert csv to sql statements",
+  "description": "To convert a csv file to sql insert statements",
   "main": "index.js",
   "type": "module",
   "scripts": {

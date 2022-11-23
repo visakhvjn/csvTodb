@@ -1,11 +1,11 @@
-export const generateSQL = (data) => {
+export const generateSQL = (tableName, data) => {
 
 	const headers = data[0].split(',');
 	const sqlStatements = [];
 
 	for (let i = 1; i < data.length; i++) {
 		const fields = data[i].split(",");
-		const sqlStatement = _convertToSql('dummy', headers, fields);
+		const sqlStatement = _convertToSql(tableName, headers, fields);
 
 		if (sqlStatement) {
 			sqlStatements.push(sqlStatement);
@@ -13,10 +13,6 @@ export const generateSQL = (data) => {
 	}
 
 	return sqlStatements;
-};
-
-export const csvToNoSql = () => {
-
 };
 
 const _convertToSql = (tableName, columns, row) => {
