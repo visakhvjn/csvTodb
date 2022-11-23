@@ -41,8 +41,8 @@ app.listen(3000);
 
 <!-- Sample NoSQL Output -->
 [
-    "db.mon.insert ({\"firstName\":\"John\",\"lastName\":\"Doe\",\"address\":\"120 jefferson st.\",\"city\":\"Riverside\",\"state\":\" NJ\",\"pin\":\"8075\"});",
-    "db.mon.insert ({\"firstName\":\"Jack\",\"lastName\":\"McGinnis\",\"address\":\"220 hobo Av.\",\"city\":\"Phila\",\"state\":\" PA\",\"pin\":\"9119\"});",
+    "db.tableName.insert ({\"firstName\":\"John\",\"lastName\":\"Doe\",\"address\":\"120 jefferson st.\",\"city\":\"Riverside\",\"state\":\" NJ\",\"pin\":\"8075\"});",
+    "db.tableName.insert ({\"firstName\":\"Jack\",\"lastName\":\"McGinnis\",\"address\":\"220 hobo Av.\",\"city\":\"Phila\",\"state\":\" PA\",\"pin\":\"9119\"});",
 ]
 
 ```
